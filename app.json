@@ -19,10 +19,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#000000"
-      }
+      },
+      "package": "com.cirripide.habittracker"
     },
     "web": {
       "favicon": "./assets/icon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "41f323c0-94f3-44b4-afde-1e2a02cb0b87"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
